@@ -37,10 +37,11 @@ function Navbar() {
                     email: user.email,
                     photo: user.photoURL
                 }))
-                navigate("/")
-            }else{
-                navigate("/login")
+                // navigate("/")
             }
+            // else{
+            //     navigate("/login")
+            // }
         })
     }, [])
 
